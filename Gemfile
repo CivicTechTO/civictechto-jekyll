@@ -1,4 +1,12 @@
 source "https://rubygems.org"
 
 gem 'jekyll'
-gem 'jekyll-paginate'
+
+group :jekyll_plugins do
+  gem 'octopress-paginate'
+  gem 'octopress-hooks',
+    # Pending release
+    # See: https://github.com/octopress/hooks/pull/14
+    github: 'octopress/hooks',
+    ref: 'master'
+end

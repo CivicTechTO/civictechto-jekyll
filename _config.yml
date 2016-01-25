@@ -16,8 +16,11 @@ url: "http://civictech.ca" # the base hostname & protocol for your site
 twitter_username: CivicTechTO
 github_username: CivicTechTO
 
-gems: [jekyll-paginate]
-paginate: 6
+gems:
+  - octopress-paginate
+
+pagination:
+  limit: false
 
 collections:
   - projects

@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Blog
-permalink: updates
-paginate_path: "/updates/page/:num/"
+paginate:
+  per_page: 6
+  permalink: /page/:num/
 weight: 2
 ---
 
@@ -11,7 +12,7 @@ weight: 2
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
