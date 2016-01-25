@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About Us
-permalink: /about/
+title: About
+permalink: about-us
 ---
 
 Civic Tech Toronto is bringing together an enthusiastic pack of people, to work together, learn together and create civic tech.
