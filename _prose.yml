@@ -8,9 +8,11 @@ prose:
         value: post
     - name: date
       field:
+        label: Date
         element: text
         value: CURRENT_DATETIME
     - name: author
       field:
+        label: Author
         element: text
         value:
