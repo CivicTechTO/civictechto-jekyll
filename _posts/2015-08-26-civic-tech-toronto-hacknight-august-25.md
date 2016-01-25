@@ -6,7 +6,7 @@ author: gabe
 ---
 Sixth hacknight! 21 participants!
 
-Presenter: Kevin Branigan (<@kbranigan>)
+Presenter: Kevin Branigan (@kbranigan)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/apIp7pM_sAo" frameborder="0" allowfullscreen></iframe>
 
