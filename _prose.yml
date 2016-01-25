@@ -1,3 +1,15 @@
+authors: &authors
+  - name: Gabe Sahwney
+    option: gabe
+  - name: Emily Fan
+    option: emilyjf
+  - name: Henrik
+    option: henrik
+  - name: Bianca
+    option: bianca
+  - name: Dorothy Eng
+    option: dorothy
+
 prose:
   media: media
   metadata:
@@ -14,5 +26,5 @@ prose:
     - name: author
       field:
         label: Author
-        element: text
-        value:
+        element: select
+        options: *authors
