@@ -1,0 +1,21 @@
+---
+layout: default
+title: Projects
+weight: 4
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Projects</h1>
+
+  <ul class="post-list">
+    {% for project in site.projects %}
+      <li>
+        <h2>{{ project.title }}</h2>
+
+        <span class="post-meta">{{ project.content }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

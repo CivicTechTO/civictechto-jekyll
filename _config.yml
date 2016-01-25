@@ -20,6 +20,9 @@ gems: [jekyll-paginate]
 paginate: 6
 #paginate_path: "/updates/page/:num/"
 
+collections:
+  - projects
+
 # Build settings
 markdown: TwitterKramdown
 permalink: pretty
