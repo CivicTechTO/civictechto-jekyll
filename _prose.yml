@@ -1,26 +1,24 @@
 prose:
   media: media
-
-metadata:
-  _posts:
-  - name: layout
-    field:
-      element: hidden
-      value: post
-  - name: date
-    field:
-      element: text
-      value: CURRENT_DATETIME
-  - name: author
-    field:
-      element: text
-      value:
-  - name: title
-    field:
-      element: text
-      placeholder: "Hacknight #X: DATE"
-  - name: published
-    field:
-      element: checkbox
-      value: true
-
+  metadata:
+    _posts:
+    - name: layout
+      field:
+        element: hidden
+        value: post
+    - name: date
+      field:
+        element: text
+        value: CURRENT_DATETIME
+    - name: author
+      field:
+        element: text
+        value:
+    - name: title
+      field:
+        element: text
+        placeholder: "Hacknight #X: DATE"
+    - name: published
+      field:
+        element: checkbox
+        value: true
