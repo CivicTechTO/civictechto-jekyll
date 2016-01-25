@@ -1,14 +1,14 @@
 authors: &authors
   - name: Gabe Sahwney
-    option: gabe
+    value: gabe
   - name: Emily Fan
-    option: emilyjf
+    value: emilyjf
   - name: Henrik
-    option: henrik
+    value: henrik
   - name: Bianca
-    option: bianca
+    value: bianca
   - name: Dorothy Eng
-    option: dorothy
+    value: dorothy
 
 prose:
   media: media
