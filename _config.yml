@@ -17,5 +17,5 @@ twitter_username: CivicTechTO
 github_username: CivicTechTO
 
 # Build settings
-markdown: kramdown
+markdown: TwitterKramdown
 permalink: pretty
