@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: about-us
+weight: 1
 ---
 
 Civic Tech Toronto is bringing together an enthusiastic pack of people, to work together, learn together and create civic tech.

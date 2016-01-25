@@ -18,7 +18,7 @@ github_username: CivicTechTO
 
 gems: [jekyll-paginate]
 paginate: 6
-paginate_path: "/updates/page/:num/"
+#paginate_path: "/updates/page/:num/"
 
 # Build settings
 markdown: TwitterKramdown

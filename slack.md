@@ -2,6 +2,7 @@
 layout: page
 title: Slack
 permalink: slack
+weight: 5
 ---
 Most of our work happens at our [hacknights][], but in between, we use [Slack][] to
 collaborate. If you’ve already been to one of our hacknights and want to join
