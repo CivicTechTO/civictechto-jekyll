@@ -14,11 +14,3 @@ prose:
       field:
         element: text
         value:
-    - name: title
-      field:
-        element: text
-        placeholder: "Hacknight #X: DATE"
-    - name: published
-      field:
-        element: checkbox
-        value: true
