@@ -4,20 +4,35 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="intro-text">CIVIC TECH TORONTO</h1>
 
-  <ul class="post-list">
+  <h2>APPROACHING CIVIC CHALLENGES WITH TECHNOLOGY + DESIGN + COLLABORATION</h2>
+
+  <p>Civic Tech Toronto is a diverse community of Torontonians interested in better understanding and finding solutions to civic challenges through technology, design or other means.</p>
+
+  <p>The Civic Tech Toronto community comes together at our weekly Hacknights every Tuesday from 6:30pm to 9pm. At Hacknights, we come together to listen to awesome speakers, learn and share civic tech stories, and work together on projects that aim to make Toronto better.</p>
+
+  <p>People of all backgrounds and skill levels are welcome to attend.</p>
+
+  <p>Civic Tech Toronto aims to create a safe, welcoming and fun space for collaboration because we know that when people from different backgrounds take a collective and human-centred approach to addressing civic issues, amazing things can happen!</p> 
+
+  <h3>Interested in learning more about Civic Tech Toronto?</h3>
+
+  <p>Come out to a Civic Tech Toronto Hack Night to learn about civic tech and meet some great people. Want to know more about the Hack Nights in general? Civic Tech Toronto Hack Nights are modeled after similar ones in Chicago, New York, Oakland, Seattle, and Boston.</p>
+
+
+  <section class="latest-news">
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+      <div class="latestnews-box">
+        <div class="latestnews-img"></div>
+        <div class="latestnews-content">
+          <h5 class="latestnews-title">
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h5>
+          <p>{{ post.content | strip_html | truncatewords:55 }}</p>
+        </div>
+      </div>
     {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </section>
 
 </div>
