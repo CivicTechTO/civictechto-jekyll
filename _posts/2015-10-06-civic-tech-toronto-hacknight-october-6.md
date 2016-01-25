@@ -1,14 +1,20 @@
 ---
 layout: post
-title:  "Civic Tech Toronto Hacknight: October 6"
-date:   2015-10-06 12:00:00 -0800
+title: "Civic Tech Toronto Hacknight: October 6"
+date: "2015-10-06 12:00:00 -0800"
 author: gabe
+published: true
 ---
+
 Twelfth hacknight – 15 participants
 
 Presenter: Iris Ko
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/fErxDVuNJeA" frameborder="0" allowfullscreen></iframe>
+
+![IMG_0809.jpg]({{site.baseurl}}/_posts/IMG_0809.jpg)
+
+![IMG_0806.jpg]({{site.baseurl}}/_posts/IMG_0806.jpg)
 
 Breakout groups:
 
