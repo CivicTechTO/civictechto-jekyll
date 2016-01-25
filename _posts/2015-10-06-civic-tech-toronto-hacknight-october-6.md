@@ -12,9 +12,9 @@ Presenter: Iris Ko
 
 <iframe width="640" height="480" src="https://www.youtube.com/embed/fErxDVuNJeA" frameborder="0" allowfullscreen></iframe>
 
-![IMG_0809.jpg]({{site.baseurl}}/_posts/IMG_0809.jpg)
+![IMG_0809.jpg]({{site.baseurl}}/media/IMG_0809.jpg)
 
-![IMG_0806.jpg]({{site.baseurl}}/_posts/IMG_0806.jpg)
+![IMG_0806.jpg]({{site.baseurl}}/media/IMG_0806.jpg)
 
 Breakout groups:
 
