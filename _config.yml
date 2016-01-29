@@ -31,3 +31,10 @@ permalink: pretty
 
 # Ignore files present during Heroku deploy
 exclude: ['app.json', 'config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
+
+# Prose config
+org_name: patcon
+repo_name: civictechto-jekyll
+prose_branch: master
+root_url: https://civictechto.herokuapp.com
+prose_url: http://prose.io
