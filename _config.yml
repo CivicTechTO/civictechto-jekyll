@@ -30,4 +30,4 @@ markdown: TwitterKramdown
 permalink: pretty
 
 # Ignore files present during Heroku deploy
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
+exclude: ['app.json', 'config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
