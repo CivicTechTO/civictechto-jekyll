@@ -1,0 +1,11 @@
+{
+  "name": "civictechto-jekyll",
+  "description": "A Jekyll port of the CivicTechTO website.",
+  "scripts": {
+  },
+  "env": {
+  },
+  "addons": [
+
+  ]
+}
