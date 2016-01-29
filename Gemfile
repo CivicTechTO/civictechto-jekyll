@@ -10,3 +10,7 @@ group :jekyll_plugins do
     github: 'octopress/hooks',
     ref: 'master'
 end
+
+group :heroku do
+  gem 'rack-jekyll'
+end
