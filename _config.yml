@@ -28,3 +28,6 @@ collections:
 # Build settings
 markdown: TwitterKramdown
 permalink: pretty
+
+# Ignore files present during Heroku deploy
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor']
