@@ -9,7 +9,7 @@ layout: nil
       "link_url": "{{ project.link_url }}",
       "code_url": "{{ project.code_url }}",
       "type": "{{ project.type }}",
-      "tags": "{{ project.tags }}",
+      "categories": "{{ project.categories }}",
       "status": "{{ project.status }}"
     }{% unless forloop.last %},{% endunless %}
   {% endfor %}
