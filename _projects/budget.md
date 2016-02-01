@@ -4,7 +4,7 @@ description: Interactive tool to help people understand the city budget allocati
 link_url: http://civictech.ca/projects/
 code_url: https://github.com/CivicTechTO/foobar
 type: web service
-categories: community engagement, civic
+tags: community engagement, civic
 status: alpha
 ---
 The mission of the Toronto Budget Project is to support informed debate
