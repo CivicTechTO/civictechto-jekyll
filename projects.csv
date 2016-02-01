@@ -1,0 +1,5 @@
+---
+layout: nil
+---
+name, description,link_url,code_url
+{% strip %}{% for project in site.projects %}"{{ project.title }}", "{{ project.description | replace: '"', '&quot;' }}", "{{ project.link_url }}", "{{ project.code_url }}"{% endfor %}{% endstrip %}
