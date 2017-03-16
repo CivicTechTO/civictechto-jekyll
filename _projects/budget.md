@@ -1,28 +1,32 @@
 ---
-title: Toronto Budget Project
+name: Budgetpedia
+phase: alpha
+description: |
+  The mission of this project is to support informed debate about the Toronto
+  budget. Specifically, provide tools for activists to facilitate insight into
+  the Toronto budget contents, provide ready access to annual budget process
+  information, and more.
+slack: budgetpedia-gen
+leads:
+- name: Henrik Bechmann
+  link: mailto:henrik@civictech.ca
+image:
+  url: http://civictech.ca/wp-content/uploads/2016/04/budgetpedia.jpg
+  description: Looking up under Toronto City Hall towers
+  attribution:
+    text: Photo by Thomas Hawk
+    link: https://www.flickr.com/photos/thomashawk/5405835151/
+buttons:
+- color: red
+  text: View the Project
+  link: http://budgetpedia.ca/
+- color: green
+  text: Contribute on GDrive
+  link: https://drive.google.com/drive/u/0/folders/0B208oCU9D8OuSms5bEZxcnRLZzA
+- color: green
+  text: Contribute on GitHub (Frontend)
+  link: https://github.com/CivicTechTO/budgetcommons-dev-frontend
+- color: green
+  text: Contribute on GitHub (Backend)
+  link: https://github.com/CivicTechTO/budgetcommons-dev-backend
 ---
-The mission of the Toronto Budget Project is to support informed debate
-about the Toronto budget. The gitub planning repository for the project
-is [here][repo-planning], and the wiki, with planning material, is
-[here][wiki]. The github code repositories are [here][repo-front] and
-[here][repo-back], and the trello project management board is
-[here][trello]. The project’s GDrive folder is [here][gdrive]. If you
-want to help, contact the current lead, Henrik Bechmann, at
-<henrik@civictech.ca>.
-
-As of December 2015, the Toronto Budget Workgroup has agreed on
-implementing a website portal, including an interactive budget roadmap,
-an interactive deputation helper, and an interactive budget explorer
-(including data visualizations, and more). Hopefully these will take no
-more than 80 person days, and be completed by next fall (2016).
-
-The Workgroup is collaborating with [Better Budget TO][betterbudget] on
-this project.
-
-[repo-planning]: https://github.com/HenrikBechmann/CivicTechTO-TorontoBudget
-[wiki]: https://github.com/HenrikBechmann/CivicTechTO-TorontoBudget/wiki
-[repo-front]: https://github.com/CivicTechTO/budgetcommons-dev-frontend
-[repo-back]: https://github.com/CivicTechTO/budgetcommons-dev-backend
-[trello]: https://trello.com/b/vyHbx4XE/civictechto-budget-project
-[gdrive]: https://drive.google.com/drive/u/0/folders/0B208oCU9D8OuSms5bEZxcnRLZzA
-[betterbudget]: http://www.betterbudget.ca/

@@ -6,7 +6,14 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel='stylesheet' id='bootstrap-css'  href='http://civictech.ca/wp-content/plugins/easy-bootstrap-shortcodes/styles/bootstrap.min.css?ver=4.7.3' type='text/css' media='all' />
+  <link rel='stylesheet' id='bootstrap-fa-icon-css'  href='http://civictech.ca/wp-content/plugins/easy-bootstrap-shortcodes/styles/font-awesome.min.css?ver=4.7.3' type='text/css' media='all' />
+  <link rel='stylesheet' id='zerif_font-css'  href='//fonts.googleapis.com/css?family=Lato%3A100%2C300%2C400%2C700%2C400italic%7CMontserrat%3A700%7CHomemade+Apple&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+  <link rel='stylesheet' id='zerif_bootstrap_style-css'  href='http://civictech.ca/wp-content/themes/zerif-lite/css/bootstrap.css?ver=4.7.3' type='text/css' media='all' />
+  <link rel='stylesheet' id='zerif_fontawesome-css'  href='http://civictech.ca/wp-content/themes/zerif-lite/css/font-awesome.min.css?ver=v1' type='text/css' media='all' />
+  <link rel='stylesheet' id='zerif_pixeden_style-css'  href='http://civictech.ca/wp-content/themes/zerif-lite/css/pixeden-icons.css?ver=v1' type='text/css' media='all' />
+  <link rel='stylesheet' id='zerif_style-css'  href='http://civictech.ca/wp-content/themes/zerif-lite/style.css?ver=v1' type='text/css' media='all' />
+  <link rel='stylesheet' id='zerif_responsive_style-css'  href='http://civictech.ca/wp-content/themes/zerif-lite/css/responsive.css?ver=v1' type='text/css' media='all' />
 </head>

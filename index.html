@@ -1,38 +1,115 @@
 ---
 layout: default
 ---
+<div id="content" class="site-content">
+  <div class="about-civic-tech">
+    <div class="container">
 
-<div class="home">
+      <div class="clear" style="padding-top: 4%; padding-bottom: 4%;">
 
-  <h1 class="intro-text">CIVIC TECH TORONTO</h1>
+        <div class="content-left-wrap col-md-6" style="padding-bottom: 30px; padding-top: 30px;">
+          <h1 class="alt-header" style="font-size: 36px; margin-bottom: 20px; text-align: right;">Hacknights for everyone.</h1>
+          <video style="width: 100%; position: relative;" autoplay="true" id="bgvid" loop="true" muted="true" poster="/assets/cropped-13e263fdb71883cb81978c6aa75cc16a.jpg">
+            <source src="http://civictech.ca/wp-content/uploads/2017/02/Hacknight_40_May_3rd_-_Brookfield_Institute_Hack2A_540.webm" type='video/webm; codecs="vp8, vorbis"'>
+              <img src="http://civictech.ca/wp-content/uploads/2017/02/Hacknight_video_screencap.png" title="Civic Tech Toronto members working at hacknight">
+          </video>
+        </div>
 
-  <h2>APPROACHING CIVIC CHALLENGES WITH TECHNOLOGY + DESIGN + COLLABORATION</h2>
+        <div class="content-left-wrap col-md-6" style="text-align: left; padding-bottom: 30px; padding-top: 30px;">
+          <p>Civic Tech Toronto is a diverse community of Torontonians interested in better understanding and finding solutions to civic challenges through technology, design or other means.</p>
 
-  <p>Civic Tech Toronto is a diverse community of Torontonians interested in better understanding and finding solutions to civic challenges through technology, design or other means.</p>
+          <p>The Civic Tech Toronto community comes together at our weekly Hacknights every Tuesday from 6:30pm to 9pm. At Hacknights, we come together to listen to awesome speakers, learn and share civic tech stories, and work together on projects that aim to make Toronto better.</p>
 
-  <p>The Civic Tech Toronto community comes together at our weekly Hacknights every Tuesday from 6:30pm to 9pm. At Hacknights, we come together to listen to awesome speakers, learn and share civic tech stories, and work together on projects that aim to make Toronto better.</p>
+          <p>People of all backgrounds and skill levels are welcome to attend.</p>
 
-  <p>People of all backgrounds and skill levels are welcome to attend.</p>
+          <p>Civic Tech Toronto aims to create a safe, welcoming and fun space for collaboration because we know that when people from different backgrounds take a collective and human-centred approach to addressing civic issues, amazing things can happen!</p>
 
-  <p>Civic Tech Toronto aims to create a safe, welcoming and fun space for collaboration because we know that when people from different backgrounds take a collective and human-centred approach to addressing civic issues, amazing things can happen!</p> 
+          <p>Come out to a Civic Tech Toronto Hack Night to learn about civic tech and meet some great people.</p>
 
-  <h3>Interested in learning more about Civic Tech Toronto?</h3>
+          <a style="margin: 0;" class="btn btn-primary custom-button red-btn" href="http://www.meetup.com/Civic-Tech-Toronto/">View all upcoming Hacknights</a>
 
-  <p>Come out to a Civic Tech Toronto Hack Night to learn about civic tech and meet some great people. Want to know more about the Hack Nights in general? Civic Tech Toronto Hack Nights are modeled after similar ones in Chicago, New York, Oakland, Seattle, and Boston.</p>
+          <div id="primary" class="content-area">
 
+            <main id="main" class="site-main" role="main">
 
-  <section class="latest-news">
-    {% for post in site.posts %}
-      <div class="latestnews-box">
-        <div class="latestnews-img"></div>
-        <div class="latestnews-content">
-          <h5 class="latestnews-title">
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h5>
-          <p>{{ post.content | strip_html | truncatewords:55 }}</p>
+            </main>
+            <!-- #main -->
+
+          </div>
+          <!-- #primary -->
+
+        </div>
+        <!-- .content-left-wrap -->
+      </div>
+    </div>
+    <!-- .container -->
+  </div>
+  <hr class="spacious" style="width: 100%; margin-bottom: 0;">
+  <div class="hacknight-process">
+    <div class="container" style="padding: 40px 0;">
+      <div class="clear">
+        <div class="content-left-wrap col-md-12">
+          <h1 class="alt-header">A typical Tuesday evening Hacknight</h1>
         </div>
       </div>
-    {% endfor %}
-  </section>
-
+      <div class="clear">
+        <div class="col-md-4" style="margin-bottom: 40px;">
+          <img style="margin-bottom: 30px; width: 100px;" src="http://civictech.ca/wp-content/uploads/2016/09/icon-happy-speech-bubble.png" />
+          <h2>6:30 pm</h2>
+          <div style="height: 2px; background-color: rgba(0, 0, 0, 0.2); width: 16px; margin: 10px auto;"></div>
+          <p>Socializing with fellow members</p>
+        </div>
+        <div class="col-md-4" style="margin-bottom: 40px;">
+          <img style="margin-bottom: 30px; width: 100px;" src="http://civictech.ca/wp-content/uploads/2016/09/icon-podium.png" />
+          <h2>7:00 pm</h2>
+          <div style="height: 2px; background-color: rgba(0, 0, 0, 0.2); width: 16px; margin: 10px auto;"></div>
+          <p>Scheduled speaker presents to the group</p>
+        </div>
+        <div class="col-md-4" style="margin-bottom: 40px;">
+          <img style="margin-bottom: 30px; width: 100px;" src="http://civictech.ca/wp-content/uploads/2016/09/icon-collaboration.png" />
+          <h2>7:40 pm</h2>
+          <div style="height: 2px; background-color: rgba(0, 0, 0, 0.2); width: 16px; margin: 10px auto;"></div>
+          <p>Attendees collaborate on projects</p>
+        </div>
+      </div>
+    </div>
+    <!-- .container -->
+  </div>
+  <hr class="spacious" style="width: 100%; margin-top: 0;">
+  <div class="past-speakers">
+    <div class="container">
+      <div class="content-left-wrap col-md-12">
+        <h1 class="alt-header" style="font-size: 36px; margin-bottom: 20px;">Some of our past Hacknight speakers</h1>
+      </div>
+      <div class="clear speakers" style="text-align: center;">
+        {% for speaker in site.data.speakers %}
+          <div class="content-left-wrap col-lg-2 col-md-3 col-sm-4 hidden-xs ">
+            <h5>{{ speaker.name }}</h5>
+            <span>{{ speaker.affiliation }}</span>
+          </div>
+        {% endfor %}
+        <div class="col-sm-12 ">
+          <a class="btn btn-primary custom-button red-btn " href="http://civictech.ca/updates/ ">View Past Speakers</a>
+        </div>
+      </div>
+    </div>
+    <!-- .container -->
+  </div>
+  <hr class="spacious " style="width: 100%; ">
+  <div class="supporters ">
+    <div class="container ">
+      <div class="content-left-wrap col-md-12 ">
+        <h1 class="alt-header " style="font-size: 36px; margin-bottom: 20px; ">Our Supporters</h1>
+      </div>
+      <div class="clear supporters " style="text-align: center; margin-bottom: 80px; ">
+        {% for supporter in site.data.supporters %}
+          {% if supporter.hide == true %}{% continue %}{% endif %}
+          <div class="col-xs-2 ">
+            <a href="{{ supporter.link }}"><img src="{{ supporter.logo }}" alt="{{ supporter.name }}" title="{{ supporter.name }}" /></a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    <!-- .container -->
+  </div>
 </div>

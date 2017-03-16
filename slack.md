@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Slack
+title: Chat
 weight: 5
 ---
 Most of our work happens at our [hacknights][], but in between, we use [Slack][] to

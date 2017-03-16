@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Calendar
-weight: 3
+weight: 4
 ---
 This calendar includes Civic Tech Toronto weekly Tuesday hacknights, and also
 events that may be of interest to our friends and members. If you have
