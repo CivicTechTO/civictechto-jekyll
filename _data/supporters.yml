@@ -1,0 +1,62 @@
+- name: City of Toronto
+  logo: http://civictech.ca/wp-content/uploads/2017/03/logo-toronto.png
+  link: http://toronto.ca/
+- name: randstad
+  logo: http://civictech.ca/wp-content/uploads/2017/03/logo-randstad.png
+  link: https://www.randstad.ca/our-divisions/technologies/
+- name: School of Public Policy & Governance
+  logo: http://civictech.ca/wp-content/uploads/2017/03/logo-sppg.png
+  link: http://publicpolicy.utoronto.ca/
+- name: HackerYou
+  logo: http://civictech.ca/wp-content/uploads/2017/03/logo-hackeryou.png
+  link: http://hackeryou.com/
+- name: TunnelBear
+  logo: http://civictech.ca/wp-content/uploads/2017/03/logo-tunnelbear.png
+  link: http://tunnelbear.com/
+- name: Rangle.io
+  logo: http://civictech.ca/wp-content/uploads/2017/03/logo-rangle.png
+  link: http://rangle.io/
+- name: TWG
+  logo: http://civictech.ca/wp-content/uploads/2016/08/logo-twg.png
+  link: http://twg.io/
+- name: InterAccess
+  logo: http://civictech.ca/wp-content/uploads/2016/08/logo-interaccess.png
+  link: http://interaccess.org/
+- name: Atkinson Foundation
+  logo: http://civictech.ca/wp-content/uploads/2016/08/atkinson.png
+  link: http://atkinsonfoundation.ca/
+- name: CivicAction
+  logo: http://civictech.ca/wp-content/uploads/2016/08/civic-action.png
+  link: http://civicaction.ca/
+- name: emerging leaders network
+  logo: http://civictech.ca/wp-content/uploads/2016/08/logo-eln.png
+  link: http://elnonline.ca/
+- name: Connected Lab
+  logo: http://civictech.ca/wp-content/uploads/2016/08/logo-connectedlab.png
+  link: http://connectedlab.com/
+- name: Province of Ontario
+  logo: http://civictech.ca/wp-content/uploads/2016/08/logo-ontario.png
+  link: http://ontario.ca/
+- name: myplanet
+  logo: http://civictech.ca/wp-content/uploads/2016/08/logo-myplanet.png
+  link: http://myplanet.com/
+- name: Mozilla
+  logo: http://civictech.ca/wp-content/uploads/2016/08/logo-mozilla.png
+  link: http://mozilla.org/
+- name: architech
+  logo: http://civictech.ca/wp-content/uploads/2016/08/logo-architech.png
+  link: http://architech.ca/
+- name: Lighthouse Labs
+  logo: http://civictech.ca/wp-content/uploads/2016/08/logo-lighthouse.png
+  link: http://lighthouselabs.ca/
+- name: ThoughtWorks
+  logo: http://civictech.ca/wp-content/uploads/2016/08/logo-thoughtworks.png
+  link: http://thoughtworks.com/
+- name: Design Cofounders
+  logo: http://civictech.ca/wp-content/uploads/2016/08/logo-designcofounders.png
+  link: http://designcofounders.com/
+  hide: true
+- name: DigitalOcean
+  logo: http://civictech.ca/wp-content/uploads/2016/08/logo-digitalocean.png
+  link: https://www.digitalocean.com/
+  hide: true
